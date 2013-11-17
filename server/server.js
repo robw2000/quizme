@@ -1,1 +1,1 @@
-Todos = new Meteor.Collection('todos')
+Quizzes = new Meteor.Collection('quizzes')

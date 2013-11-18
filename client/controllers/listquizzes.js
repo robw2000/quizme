@@ -1,4 +1,4 @@
-app.controller('TodoCtrl', [
+app.controller('ListQuizzesController', [
   '$scope', '$location', '$routeParams', '$meteor', 'filterFilter', function($scope, $location, $routeParams, $meteor, filterFilter) {
     var statusFilters, todos;
     statusFilters = {

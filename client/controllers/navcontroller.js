@@ -15,10 +15,8 @@ app.controller('NavMenuController',
       };
       
       //Profile link: show users name if logged in or sign-in link otherwise
-      $scope.profileLink = {
-        text: 'Logged In Name',
-        href: '/profile'
-      };
+      $scope.profileLink = '/profile';// $meteor.user() ? '/profile' : '/sign-in';
+      $scope.profileLinkText = $meteor.toString();//$meteor.user() ? $meteor.user().username : 'Sign-up/Sign-in';
       
     }
   ]

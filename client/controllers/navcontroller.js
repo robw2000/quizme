@@ -2,8 +2,7 @@ app.controller('NavMenuController',
   [
     '$scope', 
     '$location', 
-    '$meteor', 
-    function($scope, $location, $meteor) {
+    function($scope, $location) {
       
       //getMenuItemClass returns active if the url matches the menu link
       $scope.getMenuItemClass = function(path) {

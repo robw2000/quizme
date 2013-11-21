@@ -3,6 +3,6 @@ app.directive('ngNavMenu', function() {
     restrict: 'AE'
     //, require: '^ngModel'
     , templateUrl: 'partials/nav.html'
-    //, controller: 'NavMenuController'
+    , controller: 'NavMenuController'
   }
 });
